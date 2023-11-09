@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(165,222,199);
+background: radial-gradient(circle, rgba(165,222,199,1) 4%, rgba(227,181,202,1) 23%, rgba(169,220,200,1) 26%, rgba(205,195,201,1) 33%, rgba(193,203,200,1) 41%, rgba(227,181,202,1) 44%, rgba(174,216,200,1) 49%, rgba(148,233,198,1) 51%, rgba(186,208,200,1) 60%, rgba(179,213,200,1) 63%, rgba(238,174,202,1) 72%, rgba(169,220,200,1) 83%, rgba(191,205,200,1) 92%);
+background-attachment: fixed;
+}
+#form{
+    border: 2px solid rgb(225, 219, 225)1, 121;
+    width: 400px;
+    height: 550px;
+    padding: 30px;
+    background:color-mix(in srgb-linear, rgb(169,rgb(0, 217, 255)1, 101) 45%,rgb(180, 35, 35) color 56%);
+    background-color: rgb(255, 255, 255);
+    margin: 20vh auto ;
+    border-radius: 5px;
+}
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(98, 226, 175);
+    text-shadow: 10px 10px 25px rgb(149, 108, 190) ;
+}
+#form button{
+    background-color: rgb(236, 156, 223);
+    color: white;
+    border: 2px solid rgb(241, 179, 255);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+   transition: 4 ease-in-out;
+   
+}
+#form button:hover{
+    background-color: blueviolet;
+}
+.home{
+    font-size: x-large;
+    text-decoration: none;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input input{
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.error{
+    
+    margin-top: 3px;
+}
+.input.success input{
+    border-color:  rgb(37, 244, 37);
+    
+}
+.input.error input{
+    border-color: red;
+   
+}
